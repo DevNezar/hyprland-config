@@ -7,17 +7,15 @@ hl.monitor({
     output = "eDP-1",
     mode = "1920x1080@60.03",
     position = "0x0",
-    scale = "1.33",
+    scale = "1.333333",
 })
 
 hl.monitor({
     output = "HDMI-A-2",
     mode = "preferred",
-    position = "0x0",
+    position = "1440x0",
     scale = "1",
-    mirror = "eDP-1",
 })
-
 -- =============================================================
 -- Local variables
 -- =============================================================
