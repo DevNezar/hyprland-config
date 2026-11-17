@@ -14,6 +14,7 @@ hl.monitor({
     output = "HDMI-A-2",
     mode = "preferred",
     position = "1440x0",
+    mirror = "eDP-1",
     scale = "1",
 })
 -- =============================================================
@@ -40,9 +41,9 @@ hl.config({
         force_zero_scaling = true,
     },
     general = {
-        gaps_in = 3,
-        gaps_out = 1,
-        border_size = 2,
+        gaps_in = 0,
+        gaps_out = 0,
+        border_size = 0,
         col = {
             active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
             inactive_border = "rgba(595959aa)",
@@ -53,9 +54,9 @@ hl.config({
     },
     decoration = {
         rounding = 0,
-        rounding_power = 0,
+        rounding_power = 1,
         active_opacity = 1.0,
-        inactive_opacity = 0.85,
+        inactive_opacity = 0.9,
         shadow = {
             enabled = false,
             range = 4,
@@ -70,7 +71,7 @@ hl.config({
         },
     },
     animations = {
-        enabled = true,
+        enabled = false,
     },
     dwindle = {
         preserve_split = true,
